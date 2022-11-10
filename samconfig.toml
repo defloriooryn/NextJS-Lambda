@@ -1,0 +1,12 @@
+version = 0.1
+[production]
+[production.deploy]
+[production.deploy.parameters]
+stack_name = "Nextjs-Lambda"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-lrepis47lr89"
+s3_prefix = "Nextjs-Lambda"
+region = "us-east-1"
+confirm_changeset = true
+capabilities = "CAPABILITY_IAM"
+disable_rollback = true
+image_repositories = ["NextjsFunction=074801092934.dkr.ecr.us-east-1.amazonaws.com/nextjslambda20d167bf/nextjsfunction032c9ef3repo"]
