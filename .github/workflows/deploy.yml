@@ -37,4 +37,8 @@ jobs:
     - name: Build & Deploy
       run: |
        sam build
-       sam deploy --no-confirm-changeset --no-fail-on-empty-changeset
+       sam deploy \
+        --stack-name Nextjs-Lambda \
+        --image-repositories NextjsFunction=074801092934.dkr.ecr.us-east-1.amazonaws.com/nextjslambda20d167bf/nextjsfunction032c9ef3repo \
+        --no-confirm-changeset \
+        --no-fail-on-empty-changeset
