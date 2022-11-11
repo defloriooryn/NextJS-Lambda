@@ -28,8 +28,8 @@ jobs:
       run: |
         sudo apt update && sudo apt install curl zip unzip -y
         curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
-        unzip awscliv2.zip
-        ./aws/install
+        unzip -qq awscliv2.zip
+        ./aws/install --update
 
     - name: Setup AWS SAM
       uses: aws-actions/setup-sam@v2
