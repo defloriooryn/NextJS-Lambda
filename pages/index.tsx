@@ -17,8 +17,8 @@ export default function Home() {
         </h1>
 
         <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.tsx</code>
+          Deflorio Arya Nizam{' '}
+          <code className={styles.code}>XII TKJ</code>
         </p>
 
         <div className={styles.grid}>
