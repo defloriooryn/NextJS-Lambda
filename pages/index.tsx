@@ -17,7 +17,7 @@ export default function Home() {
         </h1>
 
         <p className={styles.description}>
-          Deflorio Arya Nizam{' '}
+          Sidang PKL{' '}
           <code className={styles.code}>XII TKJ</code>
         </p>
 
